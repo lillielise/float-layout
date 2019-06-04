@@ -1,0 +1,85 @@
+
+/* a */
+header {
+  background-color: #BF2C47;
+}
+
+/* b */
+aside {
+  background-color: #D5E5F2;
+}
+
+/* c */
+#first-section div:first-of-type {
+  background-color: #F22E62;
+}
+
+/* d */
+#first-section div:last-of-type {
+  background-color: #04D8D8;
+}
+
+/* e */
+#second-section div:first-of-type {
+  background-color: #1A80BF;
+}
+
+/* f */
+#second-section div:nth-last-of-type(4) {
+  background-color: #03BF9C;
+}
+
+/* g */
+#second-section div:nth-last-of-type(3) {
+  background-color: #1EA3D8;
+}
+/* h */
+#second-section div:nth-last-of-type(2) {
+  background-color: #028C73;
+}
+
+#second-section div:last-of-type {
+  background-color: #77BDD8;
+}
+
+@media(min-width: 768px) {
+  /* a */
+  header {
+    background-color: beige;
+  }
+  /* b */
+  aside {background-color: bisque;
+  }
+  /* c */
+  #first-section div:first-of-type {
+    background-color:blue;
+  }
+  
+  /* d */
+  #first-section div:last-of-type {
+    background-color: blueviolet;
+  }
+
+  /* e */
+  #second-section div:first-of-type {
+    background-color: brown;
+  }
+
+  /* f */
+  #second-section div:nth-last-of-type(4) {
+    background-color: burlywood;
+  }
+
+  /* g */
+  #second-section div:nth-last-of-type(3) {
+    background-color: cadetblue;
+  }
+  /* h */
+  #second-section div:nth-last-of-type(2) {
+    background-color: chartreuse;
+  }
+  /* i */
+  #second-section div:last-of-type{
+    background-color: chocolate;
+  }
+}
